@@ -65,9 +65,9 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     } else if (strstr(bootloader, "I337")) {
         /* jflteatt */
         property_set("ro.product.device", "jflteatt");
-        property_set("ro.product.model", "SGH-I337");
-        property_set("ro.build.fingerprint", "samsung/jflteuc/jflteatt:4.2.2/JDQ39/I337UCUAMDL");
-        property_set("ro.build.description", "jflteuc-user 4.2.2 JDQ39 I337UCUAMDL release-keys");
+        property_set("ro.product.model", "SAMSUNG-SGH-I337");
+        property_set("ro.build.fingerprint", "samsung/jflteuc/jflteatt:4.4.2/KOT49H/I337UCUFNB1:user/release-keys");
+        property_set("ro.build.description", "jflteuc-user 4.4.2 KOT49H I337UCUFNB1 release-keys");
         property_set("telephony.lteOnGsmDevice", "1");
         property_set("ro.telephony.default_network", "9");
         property_set("ro.loki_enabled", "1");
@@ -77,6 +77,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "jfltecri-user 4.2.2 JDQ39 R970CVVUAME4 release-keys");
         property_set("ro.product.model", "SCH-R970C");
         property_set("ro.product.device", "jfltecri");
+        property_set("ro.telephony.default_cdma_sub", "0");
         property_set("ro.telephony.ril.v3", "newDriverCallU");
         property_set("telephony.lteOnCdmaDevice", "1");
         property_set("ro.telephony.default_network", "8");
@@ -86,6 +87,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "jfltecsp-user 4.2.2 JDQ39 R970XWWUAMFA release-keys");
         property_set("ro.product.model", "SCH-R970X");
         property_set("ro.product.device", "jfltecsp");
+        property_set("ro.telephony.default_cdma_sub", "0");
         property_set("ro.telephony.ril.v3", "newDriverCallU");
         property_set("telephony.lteOnCdmaDevice", "1");
         property_set("ro.telephony.default_network", "8");
@@ -114,6 +116,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.build.description", "jflteusc-user 4.2.2 JDQ39 R970VXUAMD9 release-keys");
         property_set("ro.product.model", "SCH-R970");
         property_set("ro.product.device", "jflteusc");
+        property_set("ro.telephony.default_cdma_sub", "0");
         property_set("ro.telephony.ril.v3", "newDriverCallU");
         property_set("telephony.lteOnCdmaDevice", "1");
         property_set("ro.telephony.default_network", "8");
