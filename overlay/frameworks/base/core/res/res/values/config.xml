@@ -251,6 +251,9 @@
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+    
+    <!-- Configuration to allow Pie on non-navbar devices -->
+    <bool name="config_allowPieWithoutNavbar">true</bool>
 
 
 </resources>
