@@ -71,6 +71,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/jflte/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
     device/samsung/jflte/keylayout/ue_rf4ce_remote.kl:system/usr/keylayout/ue_rf4ce_remote.kl
 
+#Netflix fix
+PRODUCT_COPY_FILES += \
+       device/samsung/jflte/prebuilt/etc/init.d/98netflix:/system/etc/init.d/98netflix
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
