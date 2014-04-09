@@ -78,9 +78,9 @@
         "revision":     "kitkat-legacy"
     },
     {
-        "remote":      "github",
-        "repository":  "CrazyWeasel/proprietary_vendor_samsung",
+        "remote":      "blobs",
+        "repository":  "proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
-        "revision":    "android-4.4"
+        "revision":    "cm-11.0"
     }
 ]
