@@ -63,7 +63,7 @@
         "remote":       "github",
         "repository":   "AOSPAL/android_hardware_qcom_display-caf",
         "target_path":  "hardware/qcom/display-caf",
-        "revision":     "kitkat-legacy"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
@@ -75,7 +75,7 @@
         "remote":       "github",
         "repository":   "AOSPAL/android_hardware_qcom_audio-caf",
         "target_path":  "hardware/qcom/audio-caf",
-        "revision":     "kitkat-legacy"
+        "revision":     "cm-11.0"
     },
     {
         "remote":      "blobs",
