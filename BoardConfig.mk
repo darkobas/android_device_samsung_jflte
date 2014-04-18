@@ -123,3 +123,11 @@ TARGET_KERNEL_CONFIG         := jf_eur_defconfig
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jflte/releasetools
+
+# Set -fstrict-aliasing flag to global
+MAKE_STRICT_GLOBAL := true
+# Enable memory optimization
+OPT_MEMORY := true
+
+# Set Graphite 
+# ENABLE_GRAPHITE := false
