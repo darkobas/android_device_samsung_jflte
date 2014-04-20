@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     gps.msm8960
 
+# Hal
+PRODUCT_COPY_FILES += \
+       device/samsung/jflte/camera/camera.MSM8960.so:system/lib/hw/camera.MSM8960.so
+
 GPS_CONF := device/samsung/jflte/gps/gps.conf
 
 PRODUCT_COPY_FILES += \
@@ -73,7 +77,7 @@ PRODUCT_COPY_FILES += \
 
 #Netflix fix
 PRODUCT_COPY_FILES += \
-       device/samsung/jflte/prebuilt/etc/init.d/98netflix:/system/etc/init.d/98netflix
+       device/samsung/jflte/prebuilt/etc/init.d/98netflix:system/etc/init.d/98netflix
 
 # Ramdisk
 PRODUCT_PACKAGES += \
