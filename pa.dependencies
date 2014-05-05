@@ -69,7 +69,7 @@
         "remote":       "aospal",
         "repository":   "android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "kitkat"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
