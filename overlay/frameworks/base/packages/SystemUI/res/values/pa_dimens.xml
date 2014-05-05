@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2011, The CyanogenMod Project
+** Copyright (C) 2014 ParanoidAndroid Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,13 +17,9 @@
 */
 -->
 
-<resources>
-    <!-- The camera removes the focus modes by default when touch-to-focus exists. Use this option to change that behavior -->
-    <bool name="wantsFocusModes">true</bool>
-    <!-- Use ZSL mode for Qualcomm cameras -->
-    <bool name="enableZSL">true</bool>
-    <!-- Magic for enabling ZSL on Samsung cameras -->
-    <bool name="sendMagicSamsungZSLCommand">true</bool>
-    <!-- Decode YV16 format on Samsung HDR hardware -->
-    <bool name="needsSamsungHDRFormat">true</bool>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Pie controls dimensions -->
+    <dimen name="pie_trigger_height">15dp</dimen>
+    <dimen name="pie_clock_size">40dp</dimen>
+    <dimen name="pie_am_pm_size">12dp</dimen>
 </resources>
